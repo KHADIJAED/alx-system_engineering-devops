@@ -1,0 +1,10 @@
+#!usr/bin/env bash
+# server-01 login
+
+
+eval $("ssh-argent")
+
+ssh-add ~/.ssh/school
+
+
+ssh ubuntu@54.209.104.220
